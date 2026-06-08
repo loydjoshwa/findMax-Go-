@@ -10,12 +10,12 @@ func findmax(arr []int) int {
 			
 			max=arr[i]
 
-		}
+		}  
 	}
 	return max
-}
+}  
 func main() {
-	fmt.Println("find maximum in an array in a")
+	fmt.Println("find maximum in an array")
 	array:=[]int{20,30,30,40,900,40,1}
 	a:=findmax(array)    
 	fmt.Println("max:",a)     
