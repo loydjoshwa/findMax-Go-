@@ -7,9 +7,9 @@ func findmax(arr []int) int {
 
 	for i := 1; i < len(arr); i++ {
 		if max<arr[i]{
-			
+			 
 			max=arr[i]
- 
+
 		}  
 	}
 	return max
