@@ -11,7 +11,7 @@ func findmax(arr []int) int {
 			max=arr[i]  
 
 		}
-	}
+	}  
 	return max
 }     
 func main() {   
