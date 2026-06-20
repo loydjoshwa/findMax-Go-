@@ -14,7 +14,7 @@ func findmax(arr []int) int {
 	}  
 	return max
 }     
-func main() {   
+func main() {     
 	fmt.Println("find maximum in an array")
 	array:=[]int{20,30,30,40,900,40,1} 
 	a:=findmax(array)
