@@ -8,7 +8,7 @@ func main() {
 	fmt.Println("adjacency matrix")
 
 	graph:=map[string][]string{
-		"A":{"B","C"},
+		"A":{"B","C"},  
 		"B":{"A","C"},
 		"C":{"A","D"},   
 		"D":{"B"},     
