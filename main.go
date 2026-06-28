@@ -18,4 +18,4 @@ func main() {
 	}        
    
 	fmt.Println("A is conected to",graph["A"])
-}    
+}     
