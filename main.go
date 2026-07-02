@@ -16,6 +16,6 @@ func main() {
 	for c, v := range graph {
 		fmt.Println(c,"->",v)    
 	}     
-
+   
 	fmt.Println("A is conected to",graph["A"])
 }  
