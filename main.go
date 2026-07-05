@@ -13,7 +13,6 @@ func main() {
 		"C":{"A","D"},
 		"D":{"B"}, 
 	} 
-    
 	for c, v := range graph {
 		fmt.Println(c,"->",v)    
 	}
