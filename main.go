@@ -7,7 +7,6 @@ func hasCycle( graph map[string]string)
 func main() {
 	fmt.Println("adjacency matrix")
 
-	
 	graph:=map[string][]string{
 		"A":{"B","C"},
 		"B":{"A","C"},
