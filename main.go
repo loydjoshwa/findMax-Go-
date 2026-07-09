@@ -11,9 +11,9 @@ func main() {
 	graph:=map[string][]string{
 		"A":{"B","C"},
 		"B":{"A","C"},
-		"C":{"A","D"}, 
+		"C":{"A","D"},
 		"D":{"B"}, 
-	}
+	} 
     
 	for c, v := range graph {
 		fmt.Println(c,"->",v)    
