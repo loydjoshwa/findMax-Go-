@@ -12,12 +12,12 @@ func main() {
 		"A":{"B","C"},
 		"B":{"A","C"},
 		"C":{"A","D"}, 
-		"D":{"B"},
+		"D":{"B"}, 
 	}
 
 	for c, v := range graph {
 		fmt.Println(c,"->",v)  
-	}
+	}  
 
 	fmt.Println("A is conected to",graph["A"])
 }
