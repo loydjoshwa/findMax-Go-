@@ -12,7 +12,7 @@ func main() {
 		"B":{"A","C"},  
 		"C":{"A","D"},   
 		"D":{"B"},     
-	}     
+	}       
 	for c, v := range graph { 
 		fmt.Println(c,"->",v)        
 	}          
