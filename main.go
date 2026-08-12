@@ -17,6 +17,6 @@ func main() {
 		fmt.Println(c,"->",v)        
 	}               
      
-	fmt.Println("A is conected to",graph["B"])   
+	fmt.Println("A is conected to",graph["B"]) 
 } 
   
